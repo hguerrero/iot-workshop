@@ -2,6 +2,6 @@ apiVersion: operators.coreos.com/v1alpha2
 kind: OperatorGroup
 metadata:
   annotations:
-    olm.providedAPIs: Kafka.v1alpha1.kafka.strimzi.io,KafkaConnect.v1alpha1.kafka.strimzi.io,KafkaConnectS2I.v1alpha1.kafka.strimzi.io,KafkaMirrorMaker.v1alpha1.kafka.strimzi.io,KafkaTopic.v1alpha1.kafka.strimzi.io,KafkaUser.v1alpha1.kafka.strimzi.io
+    olm.providedAPIs: Address.v1beta1.enmasse.io,AddressPlan.v1beta2.admin.enmasse.io,AddressSpace.v1beta1.enmasse.io,AddressSpacePlan.v1beta2.admin.enmasse.io,AuthenticationService.v1beta1.admin.enmasse.io,BrokeredInfraConfig.v1beta1.admin.enmasse.io,IoTConfig.v1alpha1.iot.enmasse.io,MessagingUser.v1beta1.user.enmasse.io,StandardInfraConfig.v1beta1.admin.enmasse.io,Kafka.v1alpha1.kafka.strimzi.io,KafkaConnect.v1alpha1.kafka.strimzi.io,KafkaConnectS2I.v1alpha1.kafka.strimzi.io,KafkaMirrorMaker.v1alpha1.kafka.strimzi.io,KafkaTopic.v1alpha1.kafka.strimzi.io,KafkaUser.v1alpha1.kafka.strimzi.io
   name: messaging-operators
   namespace: messaging

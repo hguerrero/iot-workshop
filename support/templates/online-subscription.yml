@@ -1,0 +1,12 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  name: enmasse
+  namespace:  messaging
+spec:
+  channel: alpha
+  installPlanApproval: Automatic
+  name: enmasse
+  source: messaging-online
+  sourceNamespace: messaging
+  startingCSV: enmasse.0.28.0
